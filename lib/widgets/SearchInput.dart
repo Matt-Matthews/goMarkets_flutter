@@ -13,7 +13,9 @@ class SearchInput extends StatelessWidget {
         border: Border.all(
           width: 2,
           color: Colors.blueGrey.shade50,
+          
         ),
+        color: Colors.blueGrey.shade50,
         borderRadius: const BorderRadius.all(Radius.circular(25)),
       ),
       child: const TextField(
